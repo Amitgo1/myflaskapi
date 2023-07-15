@@ -143,3 +143,5 @@ Copy code
 Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, 
 please open an issue or submit a pull request.
+
+To setup db run command docker-compose up -d

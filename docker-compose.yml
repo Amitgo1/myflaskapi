@@ -1,0 +1,8 @@
+version: '3'
+services:
+  mongodb:
+    image: bitnami/mongodb:latest
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+    ports:
+      - '27017:27017'
